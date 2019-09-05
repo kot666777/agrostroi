@@ -442,8 +442,9 @@ $(document).ready(function(){
 
 
 /********************************************************************************************************/
-	opacityComment_bol = false;
-	lengthComment = $('.slide_comments').length;
+//Вот код слайдера
+	opacityComment_bol = false;//переменная для первого запуска функции
+	lengthComment = $('.slide_comments').length;//количество коментариев
 
 	setInterval(function(){
 		sliderComment($('.slide_comments'),lengthComment);
@@ -463,11 +464,8 @@ $(document).ready(function(){
 					
 				}//End for
 			
-
-				slaid.eq(i).find('.img_comm').children('img:eq(0)').css({
-					opacity:1,
-					zIndex:5
-				});
+				//проявляем первые картинки
+				slaid.eq(i).find('.img_comm').children('img:eq(0)').css({opacity:1,zIndex:5});
 				slaid.eq(i).find('.img_comm').children('img:eq(0)').attr('op','true');
 				opacityComment_bol = true;
 			}//End for
