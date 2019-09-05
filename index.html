@@ -1,0 +1,1118 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="UTF-8">
+	<title>Главная</title>
+	<!-- meta -->
+	<meta charset="utf-8">
+    <meta name="description" content="" />
+    <meta name="keywords" content="" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+	<!-- meta -->
+
+	<!--favicon -->
+	<!--favicon -->
+
+	<!-- link -->
+	<link rel="stylesheet" type="text/css" href="fonts/stylesheet.css">
+	<link rel="stylesheet" type="text/css" href="css/jquery.mCustomScrollbar.min.css">
+	<link rel="stylesheet" type="text/css" href="css/common.css">
+	<link rel="stylesheet" type="text/css" href="css/index.css">
+	<link rel="stylesheet" type="text/css" href="css/choice.css">
+	<!-- link -->
+
+	<!-- script -->
+	<script src="js/jquery.js"></script>
+	<script src="js/jquery.mCustomScrollbar.js"></script>
+	<script src="js/jquery.touchSwipe.min.js"></script>
+	<script src="js/common.js"></script>
+	<script src="js/index.js"></script>
+	<script src="https://api-maps.yandex.ru/2.1/?lang=ru_RU" type="text/javascript"></script>
+	<script src="js/map.js"></script>
+	<!-- script -->
+</head>
+<body>
+	<h1 class="hidden-h1"></h1>
+	<div id="ip-container" class="ip-container loading">
+		<div class="ip-header">
+			<img src="icon/logo_agrostor_1.png" alt="" class="ip-logo">
+			<div class="ip-loader">
+				<svg class="ip-inner" width="38px" height="38px" viewBox="0 0 80 80">
+					<path class="ip-loader-circlebg" d="M40,10C57.351,10,71,23.649,71,40.5S57.351,71,40.5,71 S10,57.351,10,40.5S23.649,10,40.5,10z"></path>
+					<path id="ip-loader-circle" class="ip-loader-circle" d="M40,10C57.351,10,71,23.649,71,40.5S57.351,71,40.5,71 S10,57.351,10,40.5S23.649,10,40.5,10z" style="stroke-dashoffset: 0; stroke-dasharray: 192.617;"></path>
+				</svg>
+			</div>
+		</div>
+		<div class="ip-main">
+			<img src="icon/logo_agrostor_1.png" alt="" class="logo-main">
+			<p>Выберите раздел, в который вы хотите перейти</p>
+			<ul>
+				<li>
+					<img src="icon/food_icon.png" alt="">
+					<p>Продовольственная<br>продукция</p>
+				</li>
+				<li>
+					<img src="icon/non-food_icon.png" alt="">
+					<p>Непродовольственная<br>продукция</p>
+				</li>
+			</ul>
+		</div>
+	</div>
+	<div class="wrapper">
+		<header>
+			<div class="phone_header">
+				<a href="tel:+7 343 221 40 61">+7 343 221 40 61</a>
+			</div>
+			<button class="open_callback">
+				<img src="icon/phone_head_nav.png" alt="">
+				<span>заказать звонок</span>
+			</button>
+			<div class="search_header">
+				<form>
+					<input type="text" name="search" placeholder="Поиск...">
+					<div class="sanja_click_r">
+						<i class="sanja_click"></i>
+						<img src="icon/search_head_nav.png" alt="">
+					</div>
+				</form>
+			</div>
+			<nav class="nav_header">
+				<ul>
+					<li><a href="">о компании</a></li>
+					<li><a href="">доставка и оплата</a></li>
+					<li><a href="">акции и скидки</a></li>
+					<li><a href="">контакты</a></li>
+					<li><a href="">новости</a></li>
+					<li class="line"></li>
+				</ul>
+			</nav>
+			<div class="personal_account avtorizirovannyj">
+				<a href=""><img src="icon/High-contrast-application-exit.png" alt="">
+				<span>выйти</span></a>
+			</div>
+			<div class="basket_header">
+				<a href="">
+					<img src="icon/basket.png" alt="">
+					<span>0</span>
+				</a>
+			</div>
+		</header>
+		<div class="logo__txt_ind">
+			<img src="icon/logo_agrostor_1.png" alt="">
+			<div class="slogan">
+				<p>Натуральные продукты</p>
+				<p>ближе, чем кажется</p>
+			</div>
+			<div class="receprtion">
+				<p>Приём заказов<br>круглосуточно</p>
+				<p>
+					с <strong>пн</strong><br>по <strong>вс</strong>
+				</p>
+			</div>
+		</div>
+		<div class="video_items">
+			<div class="video__item">
+				<video autoplay loop muted>
+				   <source src="video/video-1.mp4" type="video/mp4">
+				</video>
+			</div>
+			<div class="video__item">
+				<video autoplay loop muted>
+				   <source src="video/video-2.mp4" type="video/mp4">
+				</video>
+			</div>
+		</div>
+		<div class="left_bg_img">
+			<img src="image/bg-left-menu.jpg" alt="" class="bg_left_nav">
+			<img src="image/bg-left-menu-1.jpg" alt="" class="bg_left_nav">
+		</div>
+		<div class="open_menu__left">
+			<img src="icon/left_menu_open.png" alt="">
+			<img src="icon/left_menu_close.png" alt="">
+		</div>
+		<div class="left_menu">
+			<ul class="left_menu_choice">
+				<li class=""><img src="icon/food_icon_left_menu.png" alt=""></li>
+				<li class=""><img src="icon/non-food_icon_left_menu.png" alt=""></li>
+			</ul>
+			<div class="certification">
+				<img src="icon/sertificate_icon_left.png" alt="">
+				<p>
+					<span>Сертифицированная</span>
+					высококачественная<br>
+					сельскохозяйственная<br>
+					продукция<br>
+				</p>
+			</div>
+			<span class="catalog-menu">каталог товаров</span>
+		</div>
+		<div class="left_navigation">
+			<div class="logo_l__nav">
+				<img src="icon/logo_agrostor_2.png" alt="">
+				<div class="receprtion">
+					<p>Приём заказов<span>круглосуточно</span></p>
+					<div>
+						<p>с <span>пн</span></p>
+						<p>по <span>вс</span></p>
+					</div>
+				</div>
+			</div>
+			<div class="wrapper_nav_link">
+				<div class="line_nav_link arrow_top">
+					<img src="icon/arrow_left_menu.png" alt="">
+				</div>
+				<div class="nav__link">
+					<div class="nav__link_w">
+						<ul class="top_ul">
+							<li class="top_li">
+								<a href="" class="top_li_a">
+									<span><img src="icon/food/one.png" alt=""></span>
+									<p>Молочная продукция</p>
+								</a>
+								<ul class="sub_ul">
+									<li class="sub_li">
+										<a href="">
+											молоко
+										</a>
+									</li>
+									<li class="sub_li">
+										<a href="">
+											кефир
+										</a>
+									</li>
+									<li class="sub_li">
+										<a href="">
+											йогурт
+										</a>
+									</li>
+									<li class="sub_li">
+										<a href="">
+											творог
+										</a>
+									</li>
+									<li class="sub_li">
+										<a href="">
+											сыр
+										</a>
+									</li>
+								</ul>
+							</li>
+							<li class="top_li">
+								<a href="" class="top_li_a">
+									<span><img src="icon/food/two.png" alt=""></span>
+									<p>Мясная продукция</p>
+								</a>
+								<ul class="sub_ul">
+									<li class="sub_li">
+										<a href="">
+											молоко
+										</a>
+									</li>
+									<li class="sub_li">
+										<a href="">
+											кефир
+										</a>
+									</li>
+									<li class="sub_li">
+										<a href="">
+											йогурт
+										</a>
+									</li>
+									<li class="sub_li">
+										<a href="">
+											творог
+										</a>
+									</li>
+									<li class="sub_li">
+										<a href="">
+											сыр
+										</a>
+									</li>
+								</ul>
+							</li>
+							<li class="top_li">
+								<a href="">
+									<span><img src="icon/food/three.png" alt=""></span>
+									<p>Мясные полуфабрикаты</p>
+								</a>
+								<ul class="sub_ul">
+									<li class="sub_li">
+										<a href="">
+											молоко
+										</a>
+									</li>
+									<li class="sub_li">
+										<a href="">
+											кефир
+										</a>
+									</li>
+									<li class="sub_li">
+										<a href="">
+											йогурт
+										</a>
+									</li>
+									<li class="sub_li">
+										<a href="">
+											творог
+										</a>
+									</li>
+									<li class="sub_li">
+										<a href="">
+											сыр
+										</a>
+									</li>
+								</ul>
+							</li>
+							<li class="top_li">
+								<a href="">
+									<span><img src="icon/food/four.png" alt=""></span>
+									<p>Мед и продукция пчеловодства</p>
+								</a>
+								<ul class="sub_ul">
+									<li class="sub_li">
+										<a href="">
+											молоко
+										</a>
+									</li>
+									<li class="sub_li">
+										<a href="">
+											кефир
+										</a>
+									</li>
+									<li class="sub_li">
+										<a href="">
+											йогурт
+										</a>
+									</li>
+									<li class="sub_li">
+										<a href="">
+											творог
+										</a>
+									</li>
+									<li class="sub_li">
+										<a href="">
+											сыр
+										</a>
+									</li>
+								</ul>
+							</li>
+							<li class="top_li">
+								<a href="">
+									<span><img src="icon/food/five.png" alt=""></span>
+									<p>Чайные и травяные напитки</p>
+								</a>
+								<ul class="sub_ul">
+									<li class="sub_li">
+										<a href="">
+											молоко
+										</a>
+									</li>
+									<li class="sub_li">
+										<a href="">
+											кефир
+										</a>
+									</li>
+									<li class="sub_li">
+										<a href="">
+											йогурт
+										</a>
+									</li>
+									<li class="sub_li">
+										<a href="">
+											творог
+										</a>
+									</li>
+									<li class="sub_li">
+										<a href="">
+											сыр
+										</a>
+									</li>
+								</ul>
+							</li>
+							<li class="top_li">
+								<a href="">
+									<span><img src="icon/food/six.png" alt=""></span>
+									<p>Рыба</p>
+								</a>
+								<ul class="sub_ul">
+									<li class="sub_li">
+										<a href="">
+											молоко
+										</a>
+									</li>
+									<li class="sub_li">
+										<a href="">
+											кефир
+										</a>
+									</li>
+									<li class="sub_li">
+										<a href="">
+											йогурт
+										</a>
+									</li>
+									<li class="sub_li">
+										<a href="">
+											творог
+										</a>
+									</li>
+									<li class="sub_li">
+										<a href="">
+											сыр
+										</a>
+									</li>
+								</ul>
+							</li>
+							<li class="top_li">
+								<a href="">
+									<span><img src="icon/food/seven.png" alt=""></span>
+									<p>Фрукты и овощи</p>
+								</a>
+								<ul class="sub_ul">
+									<li class="sub_li">
+										<a href="">
+											молоко
+										</a>
+									</li>
+									<li class="sub_li">
+										<a href="">
+											кефир
+										</a>
+									</li>
+									<li class="sub_li">
+										<a href="">
+											йогурт
+										</a>
+									</li>
+									<li class="sub_li">
+										<a href="">
+											творог
+										</a>
+									</li>
+									<li class="sub_li">
+										<a href="">
+											сыр
+										</a>
+									</li>
+								</ul>
+							</li>
+							<li class="top_li">
+								<a href="">
+									<span><img src="icon/food/eight.png" alt=""></span>
+									<p>Орехи и сухофрукты</p>
+								</a>
+								<ul class="sub_ul">
+									<li class="sub_li">
+										<a href="">
+											молоко
+										</a>
+									</li>
+									<li class="sub_li">
+										<a href="">
+											кефир
+										</a>
+									</li>
+									<li class="sub_li">
+										<a href="">
+											йогурт
+										</a>
+									</li>
+									<li class="sub_li">
+										<a href="">
+											творог
+										</a>
+									</li>
+									<li class="sub_li">
+										<a href="">
+											сыр
+										</a>
+									</li>
+								</ul>
+							</li>
+							<li class="top_li">
+								<a href="">
+									<span><img src="icon/food/nine.png" alt=""></span>
+									<p>Ягоды и грибы</p>
+								</a>
+								<ul class="sub_ul">
+									<li class="sub_li">
+										<a href="">
+											молоко
+										</a>
+									</li>
+									<li class="sub_li">
+										<a href="">
+											кефир
+										</a>
+									</li>
+									<li class="sub_li">
+										<a href="">
+											йогурт
+										</a>
+									</li>
+									<li class="sub_li">
+										<a href="">
+											творог
+										</a>
+									</li>
+									<li class="sub_li">
+										<a href="">
+											сыр
+										</a>
+									</li>
+								</ul>
+							</li>
+							<li class="top_li">
+								<a href="">
+									<span><img src="icon/food/ten.png" alt=""></span>
+									<p>Соленья и маринады</p>
+								</a>
+								<ul class="sub_ul">
+									<li class="sub_li">
+										<a href="">
+											молоко
+										</a>
+									</li>
+									<li class="sub_li">
+										<a href="">
+											кефир
+										</a>
+									</li>
+									<li class="sub_li">
+										<a href="">
+											йогурт
+										</a>
+									</li>
+									<li class="sub_li">
+										<a href="">
+											творог
+										</a>
+									</li>
+									<li class="sub_li">
+										<a href="">
+											сыр
+										</a>
+									</li>
+								</ul>
+							</li>
+							<li class="top_li">
+								<a href="">
+									<span><img src="icon/food/eleven.png" alt=""></span>
+									<p>Джемы и варенья</p>
+								</a>
+								<ul class="sub_ul">
+									<li class="sub_li">
+										<a href="">
+											молоко
+										</a>
+									</li>
+									<li class="sub_li">
+										<a href="">
+											кефир
+										</a>
+									</li>
+									<li class="sub_li">
+										<a href="">
+											йогурт
+										</a>
+									</li>
+									<li class="sub_li">
+										<a href="">
+											творог
+										</a>
+									</li>
+									<li class="sub_li">
+										<a href="">
+											сыр
+										</a>
+									</li>
+								</ul>
+							</li>
+							<li class="top_li">
+								<a href="">
+									<span><img src="icon/food/twelve.png" alt=""></span>
+									<p>Хлеб и хлебобулочные изделия</p>
+								</a>
+								<ul class="sub_ul">
+									<li class="sub_li">
+										<a href="">
+											молоко
+										</a>
+									</li>
+									<li class="sub_li">
+										<a href="">
+											кефир
+										</a>
+									</li>
+									<li class="sub_li">
+										<a href="">
+											йогурт
+										</a>
+									</li>
+									<li class="sub_li">
+										<a href="">
+											творог
+										</a>
+									</li>
+									<li class="sub_li">
+										<a href="">
+											сыр
+										</a>
+									</li>
+								</ul>
+							</li>
+							<li class="top_li">
+								<a href="">
+									<span><img src="icon/food/thirteen.png" alt=""></span>
+									<p>Яйцо</p>
+								</a>
+								<ul class="sub_ul">
+									<li class="sub_li">
+										<a href="">
+											молоко
+										</a>
+									</li>
+									<li class="sub_li">
+										<a href="">
+											кефир
+										</a>
+									</li>
+									<li class="sub_li">
+										<a href="">
+											йогурт
+										</a>
+									</li>
+									<li class="sub_li">
+										<a href="">
+											творог
+										</a>
+									</li>
+									<li class="sub_li">
+										<a href="">
+											сыр
+										</a>
+									</li>
+								</ul>
+							</li>
+						</ul>
+					</div>
+				</div>
+				<div class="nav__link">
+					<div class="nav__link_w">
+						<ul class="top_ul">
+							<li class="top_li">
+								<a href="" class="top_li_a">
+									<span><img src="icon/non-food/one.png" alt=""></span>
+									<p>Рассада и саженцы</p>
+								</a>
+								<ul class="sub_ul">
+									<li class="sub_li">
+										<a href="">
+											молоко
+										</a>
+									</li>
+									<li class="sub_li">
+										<a href="">
+											кефир
+										</a>
+									</li>
+									<li class="sub_li">
+										<a href="">
+											йогурт
+										</a>
+									</li>
+									<li class="sub_li">
+										<a href="">
+											творог
+										</a>
+									</li>
+									<li class="sub_li">
+										<a href="">
+											сыр
+										</a>
+									</li>
+								</ul>
+							</li>
+							<li class="top_li">
+								<a href="" class="top_li_a">
+									<span><img src="icon/non-food/two.png" alt=""></span>
+									<p>Зерно и семена</p>
+								</a>
+								<ul class="sub_ul">
+									<li class="sub_li">
+										<a href="">
+											молоко
+										</a>
+									</li>
+									<li class="sub_li">
+										<a href="">
+											кефир
+										</a>
+									</li>
+									<li class="sub_li">
+										<a href="">
+											йогурт
+										</a>
+									</li>
+									<li class="sub_li">
+										<a href="">
+											творог
+										</a>
+									</li>
+									<li class="sub_li">
+										<a href="">
+											сыр
+										</a>
+									</li>
+								</ul>
+							</li>
+							<li class="top_li">
+								<a href="">
+									<span><img src="icon/non-food/three.png" alt=""></span>
+									<p>Биогумус, почвогрунты</p>
+								</a>
+								<ul class="sub_ul">
+									<li class="sub_li">
+										<a href="">
+											молоко
+										</a>
+									</li>
+									<li class="sub_li">
+										<a href="">
+											кефир
+										</a>
+									</li>
+									<li class="sub_li">
+										<a href="">
+											йогурт
+										</a>
+									</li>
+									<li class="sub_li">
+										<a href="">
+											творог
+										</a>
+									</li>
+									<li class="sub_li">
+										<a href="">
+											сыр
+										</a>
+									</li>
+								</ul>
+							</li>
+							<li class="top_li">
+								<a href="">
+									<span><img src="icon/non-food/four.png" alt=""></span>
+									<p>Перегной и навоз</p>
+								</a>
+								<ul class="sub_ul">
+									<li class="sub_li">
+										<a href="">
+											молоко
+										</a>
+									</li>
+									<li class="sub_li">
+										<a href="">
+											кефир
+										</a>
+									</li>
+									<li class="sub_li">
+										<a href="">
+											йогурт
+										</a>
+									</li>
+									<li class="sub_li">
+										<a href="">
+											творог
+										</a>
+									</li>
+									<li class="sub_li">
+										<a href="">
+											сыр
+										</a>
+									</li>
+								</ul>
+							</li>
+							<li class="top_li">
+								<a href="">
+									<span><img src="icon/non-food/five.png" alt=""></span>
+									<p>Черви и опарыши</p>
+								</a>
+								<ul class="sub_ul">
+									<li class="sub_li">
+										<a href="">
+											молоко
+										</a>
+									</li>
+									<li class="sub_li">
+										<a href="">
+											кефир
+										</a>
+									</li>
+									<li class="sub_li">
+										<a href="">
+											йогурт
+										</a>
+									</li>
+									<li class="sub_li">
+										<a href="">
+											творог
+										</a>
+									</li>
+									<li class="sub_li">
+										<a href="">
+											сыр
+										</a>
+									</li>
+								</ul>
+							</li>
+						</ul>
+					</div>
+				</div>
+				<div class="line_nav_link arrow_down">
+					<img src="icon/arrow_left_menu.png" alt="">
+				</div>
+			</div>
+			<div class="down_l_nav">
+				<form>
+					<div class="sanja_click_r">
+						<i class="sanja_click"></i>
+						<img src="icon/search_menu_left.png" alt="">
+					</div>
+					<input type="text" name="search" placeholder="Поиск...">
+				</form>
+				<a href="">Полезные статьи</a>
+				<a href="">Сертификаты качества</a>
+			</div>
+		</div>
+		<div class="hover__bg">
+		<div class="bottom_menu">
+				<div class="bottom_menu_items food">
+					<div class="bottom_menu_item">
+						<span class="image">
+							<img src="icon/menu-food/milk.png" alt="" class="image_razdel">
+							<img src="icon/circle_menu_ind.png" alt="" class="circle_menu">
+						</span>
+						<p>Молочная<br>продукция</p>
+						<a href="">перейти в раздел</a>
+					</div>
+					<div class="bottom_menu_item">
+						<span class="image">
+							<img src="icon/menu-food/meat.png" alt="" class="image_razdel">
+							<img src="icon/circle_menu_ind.png" alt="" class="circle_menu">
+						</span>
+						<p>Мясная<br>продукция</p>
+						<a href="">перейти в раздел</a>
+					</div>
+					<div class="bottom_menu_item">
+						<span class="image">
+							<img src="icon/menu-food/med.png" alt="" class="image_razdel">
+							<img src="icon/circle_menu_ind.png" alt="" class="circle_menu">
+						</span>
+						<p>Мёд и продукция<br>пчеловодства</p>
+						<a href="">перейти в раздел</a>
+					</div>
+					<div class="bottom_menu_item">
+						<span class="image">
+							<img src="icon/menu-food/tea.png" alt="" class="image_razdel">
+							<img src="icon/circle_menu_ind.png" alt="" class="circle_menu">
+						</span>
+						<p>Чайные<br>и травяные<br>напитки</p>
+						<a href="">перейти в раздел</a>
+					</div>
+					<div class="bottom_menu_item">
+						<span class="image">
+							<img src="icon/menu-food/fish.png" alt="" class="image_razdel">
+							<img src="icon/circle_menu_ind.png" alt="" class="circle_menu">
+						</span>
+						<p>Рыба</p>
+						<a href="">перейти в раздел</a>
+					</div>
+					<div class="bottom_menu_item">
+						<span class="image">
+							<img src="icon/menu-food/fruits.png" alt="" class="image_razdel">
+							<img src="icon/circle_menu_ind.png" alt="" class="circle_menu">
+						</span>
+						<p>Фрукты<br>и овощи</p>
+						<a href="">перейти в раздел</a>
+					</div>
+					<div class="bottom_menu_item">
+						<span class="image">
+							<img src="icon/menu-food/nuts.png" alt="" class="image_razdel">
+							<img src="icon/circle_menu_ind.png" alt="" class="circle_menu">
+						</span>
+						<p>Орехи<br>и сухофрукты</p>
+						<a href="">перейти в раздел</a>
+					</div>
+					<div class="bottom_menu_item">
+						<span class="image">
+							<img src="icon/menu-food/yagodi.png" alt="" class="image_razdel">
+							<img src="icon/circle_menu_ind.png" alt="" class="circle_menu">
+						</span>
+						<p>Ягоды<br>и грибы</p>
+						<a href="">перейти в раздел</a>
+					</div>
+					<div class="bottom_menu_item">
+						<span class="image">
+							<img src="icon/menu-food/pickles.png" alt="" class="image_razdel">
+							<img src="icon/circle_menu_ind.png" alt="" class="circle_menu">
+						</span>
+						<p>Соленья<br>и маринады</p>
+						<a href="">перейти в раздел</a>
+					</div>
+					<div class="bottom_menu_item">
+						<span class="image">
+							<img src="icon/menu-food/jam.png" alt="" class="image_razdel">
+							<img src="icon/circle_menu_ind.png" alt="" class="circle_menu">
+						</span>
+						<p>Джемы<br>и варенья</p>
+						<a href="">перейти в раздел</a>
+					</div>
+				</div>
+				<div class="bottom_menu_items non__food">
+					<div class="bottom_menu_item">
+						<span class="image">
+							<img src="icon/menu-non-food/seedling.png" alt="" class="image_razdel">
+							<img src="icon/circle_menu_ind.png" alt="" class="circle_menu">
+						</span>
+						<p>Рассада<br>и саженцы</p>
+						<a href="">перейти в раздел</a>
+					</div>
+					<div class="bottom_menu_item">
+						<span class="image">
+							<img src="icon/menu-non-food/grain.png" alt="" class="image_razdel">
+							<img src="icon/circle_menu_ind.png" alt="" class="circle_menu">
+						</span>
+						<p>Зерно и семена</p>
+						<a href="">перейти в раздел</a>
+					</div>
+					<div class="bottom_menu_item">
+						<span class="image">
+							<img src="icon/menu-non-food/soil.png" alt="" class="image_razdel">
+							<img src="icon/circle_menu_ind.png" alt="" class="circle_menu">
+						</span>
+						<p>Биогумус,<br>почвогрунт</p>
+						<a href="">перейти в раздел</a>
+					</div>
+					<div class="bottom_menu_item">
+						<span class="image">
+							<img src="icon/menu-non-food/navoz.png" alt="" class="image_razdel">
+							<img src="icon/circle_menu_ind.png" alt="" class="circle_menu">
+						</span>
+						<p>Перегной<br>и навоз</p>
+						<a href="">перейти в раздел</a>
+					</div>
+					<div class="bottom_menu_item">
+						<span class="image">
+							<img src="icon/menu-non-food/chervi.png" alt="" class="image_razdel">
+							<img src="icon/circle_menu_ind.png" alt="" class="circle_menu">
+						</span>
+						<p>Черви<br>и опарыши</p>
+						<a href="">перейти в раздел</a>
+					</div>
+				</div>
+		</div>
+		</div>
+		<div class="footer__menu">
+			<div class="logo_footer">
+				<img src="icon/logo_agrostor_3.png" alt="">
+			</div>
+			<div class="wrapper_footer">
+				<div class="arrow__f">
+					<img src="icon/arrow_footer.png" alt="">
+				</div>
+				<div class="footer__open">
+					<div class="product">
+						<h2>продукция</h2>
+						<ul>
+							<li><a href="">Перейти в каталог</a></li>
+							<li><a href="">Популярные товары</a></li>
+							<li><a href="">Акции и скидки</a></li>
+							<li><a href="">Сертификаты качества</a></li>
+						</ul>
+					</div>
+					<div class="delivery">
+						<h2>доставка<br> и оплата</h2>
+						<p>
+							Варианты покупки<span>доставка и самовывоз</span>
+						</p>
+						<ul>
+							<li>
+								<p>Способы оплаты:</p>
+							</li>
+							<li>
+								<p>- при получении,</p>
+							</li>
+							<li>
+								<p>- онлайн картой</p>
+							</li>
+						</ul>
+						<div class="logo_cart">
+							<img src="icon/maestro.png" alt="">
+							<img src="icon/visa.png" alt="">
+							<img src="icon/visa_mastercard.png" alt="">
+							<img src="icon/mir-logo.png" alt="">
+						</div>
+					</div>
+					<div class="about_us">
+						<h2>о нас</h2>
+						<button class="open_maps">
+							<img src="icon/metka_footer.png" alt="">
+							<span>Офис продаж</span>
+						</button>
+						<p class="adress">
+							г. Екатеринбург,<br> пр-кт Космонавтов 15,<br> лит О, офис 301 (офис)
+						</p>
+						<div class="contacts_foot">
+							<p>Связаться с нами:</p>
+							<div>
+								<p>sales@agro-store.ru</p>
+									<p>+7 343 221 40 61<p>
+								<span>Контактное лицо: </span>
+								<span>Константин</span>
+							</div>
+						</div>
+						<a href="">Новости</a>
+					</div>
+					<div class="personal_account_f">
+						<h2>личный кабинет</h2>
+						<a href="">Мой аккаунт</a>
+						<a href="">История заказов</a>
+						<a href="">Привязать карту</a>
+						<a href="">Корзина</a>
+						<a href="" class="exit">выйти<img src="icon/exit_footer.png" alt=""></a>
+					</div>
+					<div class="search_foot">
+						<h2>поиск</h2>
+						<form>
+							<div class="sanja_click_r">
+								<i class="sanja_click"></i>
+								<img src="icon/search_footer.png" alt="">
+							</div>
+							<input type="text" name="search" placeholder="Поиск...">
+						</form>
+					</div>
+					<div class="questions_f">
+						<h2>появились вопросы?</h2>
+						<p>
+							Оставьте заявку, наш менеджер <br>свяжется с Вами
+						</p>
+						<form>
+							<div class="wrap_input">
+								<div>
+									<img src="icon/name_footer_form.png" alt="">
+								</div>
+								<input type="text" name="name" value="Имя" autocomplete="off">
+							</div>
+							<div class="wrap_input">
+								<div>
+									<img src="icon/phone_footer_form.png" alt="">
+								</div>
+								<input type="tel" name="phone" value="Номер телефона" autocomplete="off">
+							</div>
+							<button>отправить</button>
+						</form>
+						<ul class="social_footer">
+							<li>
+								<a href="" target="_blank">
+									<img src="icon/social/odnoklassniki.png" alt="">
+								</a>
+							</li>
+							<li>
+								<a href="" target="_blank">
+									<img src="icon/social/vkontake.png" alt="">
+								</a>
+							</li>
+							<li>
+								<a href="" target="_blank">
+									<img src="icon/social/instagram.png" alt="">
+								</a>
+							</li>
+							<li>
+								<a href="" target="_blank">
+									<img src="icon/social/facebook.png" alt="">
+								</a>
+							</li>
+						</ul>
+					</div>
+					<div class="work_email">
+						<h3>работа у нас</h3>
+						<p>
+							Если вас интересуют вакансии нашей компании,<br>напишите на почту: SteninKA@sm2.su
+						</p>
+					</div>
+					<img src="icon/family_footer.png" alt="" class="family_img">
+				</div>
+				<div class="footer_visible">
+					<a href="" class="copyright">
+						<img src="icon/logo_ipos.png" alt="">
+						разработка и продвижение сайта
+					</a>
+					<ul class="social_footer">
+						<li>
+							<a href="" target="_blank">
+								<img src="icon/social/odnoklassniki.png" alt="">
+							</a>
+						</li>
+						<li>
+							<a href="" target="_blank">
+								<img src="icon/social/vkontake.png" alt="">
+							</a>
+						</li>
+						<li>
+							<a href="" target="_blank">
+								<img src="icon/social/instagram.png" alt="">
+							</a>
+						</li>
+						<li>
+							<a href="" target="_blank">
+								<img src="icon/social/facebook.png" alt="">
+							</a>
+						</li>
+					</ul>
+					<a href="" class="opt_otdel">оптовый отдел</a>
+				</div>
+			</div>
+		</div>
+		<footer>
+			<div class="footer_visible">
+				<div class="arrow__f">
+					<img src="icon/arrow_footer.png" alt="">
+				</div>
+				<a href="" class="copyright">
+					<img src="icon/logo_ipos.png" alt="">
+					разработка и продвижение сайта
+				</a>
+				<ul class="social_footer">
+					<li>
+						<a href="" target="_blank">
+							<img src="icon/social/odnoklassniki.png" alt="">
+						</a>
+					</li>
+					<li>
+						<a href="" target="_blank">
+							<img src="icon/social/vkontake.png" alt="">
+						</a>
+					</li>
+					<li>
+						<a href="" target="_blank">
+							<img src="icon/social/instagram.png" alt="">
+						</a>
+					</li>
+					<li>
+						<a href="" target="_blank">
+							<img src="icon/social/facebook.png" alt="">
+						</a>
+					</li>
+				</ul>
+				<a href="" class="opt_otdel">оптовый отдел</a>
+			</div>
+		</footer>
+	</div>
+	<div class="map" id="map">
+		<div class="close">+</div>
+	</div>
+	<script src="js/modernizr.custom.js"></script>
+	<script src="js/classie.js"></script>
+	<script src="js/pathLoader.js"></script>
+	<script src="js/main.js"></script>
+</body>
+</html>

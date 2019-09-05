@@ -1,0 +1,28 @@
+/**************************
+preloader
+**************************/
+.preloader {
+	position: fixed;
+	left: 71px;
+	right: 0;
+	top: 0;
+	bottom: 32px;
+	z-index: 7;
+	background-color: #fff;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.preloader img {
+	position: absolute;
+	opacity: 0;
+}
+
+.left_menu_choice,
+.left_menu .certification {
+	display: none;
+}
+footer {
+	z-index: 7;
+	transition: 0s linear;
+}
